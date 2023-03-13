@@ -129,3 +129,5 @@ STATICFILES_DIRS = [
 STATIC_ROOT = (BASE_DIR/"assets/")
 
 LOGIN_REDIRECT_URL = 'dashboard-index'
+
+LOGIN_URL = 'user-login'
